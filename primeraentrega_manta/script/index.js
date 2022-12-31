@@ -148,20 +148,20 @@ let divCarga = document.getElementById("carrito");
 
 let mostrarCarrito = () => {
     let acumluador = '';
-    
-
+    let contenedorCarrito = document.getElementById("contenedorCarrito");
+    let iterador = 1;
     carritoBasket.forEach((el) => {
         acumluador +=
-        `<tr> <div class="modal-body">`
-        `<td>${iterador}</td>`
-        `<td>${el.id}</td>`
-        `<td>${el.nombre}</td>`
-        `<td>${el.cantidad}</td>`
-        `<td>${el.valor}</td>`
-        `<td>${el.valor*el.cantidad}</td>`
-        `<td>Eliminar(id)|masTarde(id)</td>
+        `<tr> <div class="modal-body">
+        <td>${iterador}</td>
+        <td>${el.id}</td>
+        <td>${el.nombre}</td>
+        <td>${el.cantidad}</td>
+        <td>${el.valor}</td>
+        <td>${el.valor*el.cantidad}</td>
+        <td>Eliminar(id)|masTarde(id)</td>
         </tr>`
-
+        iterador = iterador + 1;
     });
 
     contenedorCarrito.innerHTML = acumluador;
