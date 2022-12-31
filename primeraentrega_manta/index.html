@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Basket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+  <img class="nav_img" src="img/logonba.png" alt="">
+
+    <header class="nav_fondo">
+
+        <nav class="navbar navbar-expand-lg" id="botonera">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Equipos NBA
+                    </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li><a class="dropdown-item" href="#">BOSTON CELTICS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">BROOKLYN NETS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">NEW YORK KNICKS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">PHILADELPHIA 76ers</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">TORONTO RAPTORS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CHICAGO BULLS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CLEVELAND CAVALIERS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">DETROIT PISTONS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">INDIANA PACERS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">MILWAUKEE BUCKS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">ATLANTA HAWKS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">CHARLOTTE HORNETS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">MIAMI HEAT</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">ORLANDO MAGIC</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">WASHINGTON WIZARDS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">DENVER NUGGETS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">MINNESOTA TIMBERWOLVES</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">OKLAHOMA CITY THUNDER</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">PORTLAND TRAIL BLAIZERSS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">UTAH JAZZ</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">GOLDEN STATE WARRIORS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">LOS ANGELES CLIPPERS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">LOS ANGELES LAKERS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">PHOENIX SUNS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">SACRAMENTO KINGS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">DALLAS MAVERICKS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">HOUSTON ROCKETS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">MEMPHIS GRIZZLIES</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">NEW ORLEANS PELICANS</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">SAN ANTONIO SPURS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tienda
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Musculosas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Shorts</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Conjunto deportivo</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Calzado</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscador</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+          <div class="container-md text-center">
+            <div class="row" id="cargaDinamicaEquipos">
+              
+            </div>
+          </div>
+
+          <div class="fondoCarro" id="fondoCarro"></div>
+          <div class="carrito" id="carrito">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compras</h1>
+                <button type="button" class="btn-close" onclick="cerrarModal()" aria-label="Close"></button>              
+              </div>
+              <div class="modal-body">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Id</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Valor Unitario</th>
+                      <th scope="col">Valor Total</th>
+                      <th scope="col">Opciones</th>
+                    </tr>
+                  </thead>
+                  <tbody id="contenedorCarrito">
+
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="cerrarModal()">Close</button>
+                <button type="button" class="btn btn-primary">Ir al pago</button>
+              </div>
+            </div>
+          </div>
+           
+   
+
+          
+
+          
+
+          
+
+          
+
+          
+
+
+            <!-- <h2>CONFERENCIA ESTE</h2>
+            <h4>Division Atlantico</h4>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/boston.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">BOSTON CELTICS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/nets.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">BROOKLYN NETS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/nyc.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">NEW YORK KNICKS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Philadelphia.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">PHILADELPHIA 76ers</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/toronto.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">TORONTO RAPTORS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+        <section>
+            <h4>Division Central</h4>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/chicago.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">CHICAGO BULLS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cleveland.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">CLEVELAND CAVALIERS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/detroit.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">DETROIT PISTONS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/indianca.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">INDIANA PACERS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/milwaukee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">MILWAUKEE BUCKS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <h4>Division sureste</h4>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/atlanta.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">ATLANTA HAWKS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/charlotte.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">CHARLOTTE HORNETS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/miami.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">MIAMI HEAT</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/orlando.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">ORLANDO MAGIC</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/washington.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">WASHINGTON WIZARDS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <h3>CONFERENCIA OESTE</h3>
+            <h5>Division Noroeste</h5>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/denver.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">DENVER NUGGETS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/minnesota.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">MINNESOTA TIMBERWOLVES</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/oklahoma.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">OKLAHOMA CITY THUNDER</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/portland.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">PORTLAND TRAIL BLAIZERSS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/utah.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">UTAH JAZZ</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <h5>Division Pacifico</h5>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/goldenawrriors.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">GOLDEN STATE WARRIORS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/clippers.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">LOS ANGELES CLIPPERS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/lakers.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">LOS ANGELES LAKERS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/phoenix.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">PHOENIX SUNS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/sacramento.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">SACRAMENTO KINGS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <h5>Division suroeste</h5>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/dallas.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">DALLAS MAVERICKS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/houston.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">HOUSTON ROCKETS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/memphis.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">MEMPHIS GRIZZLIES</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/neworleans.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">NEW ORLEANS PELICANS</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/sanantonio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">SAN ANTONIO SPURS</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section> -->
+
+    </main>
+
+    <footer class=" pie">
+      <h4 class="pie_titulo--md">Seguinos en Nuestras Redes Sociales</h4>
+      <a href="https://www.instagram.com/" target="_blank">
+          <img src="img/instagram.svg" alt="Seguinos en instagram" class="pie__icon--sm">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+          <img src="img/facebook.svg" alt="Seguinos en facebook" class="pie__icon--sm">
+      </a>
+      <a href="https://twitter.com/?lang=es" target="_blank">
+          <img src="img/twitter.svg" alt="Seguinos en Twitter" class="pie__icon--sm">
+      </a>
+      <a href="https://www.youtube.com/" target="_blank">
+          <img src="img/youtube.svg" alt="Seguinos en youtube" class="pie__icon--sm">
+      </a>
+  </footer>
+    
+    <script src="./script/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+</body>
+</html>

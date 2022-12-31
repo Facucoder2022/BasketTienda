@@ -1,0 +1,36 @@
+.nav_fondo{
+    background-color: rgb(1, 1, 1);
+}
+.nav_img{
+	width: 100px;
+}
+
+#botonera span{
+	fill: rgb(251, 251, 251);
+}
+
+#botonera ul{
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#botonera ul li{
+    float: right;
+}
+	#botonera ul li a{
+		color: rgb(255, 251, 251);
+		font-size: 1.0em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+
+		#botonera ul li a:hover{
+			color: rgb(241, 81, 41);
+		}
+
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-divider{
+    color: white;
+}

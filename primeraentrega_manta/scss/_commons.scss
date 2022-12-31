@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ html{
+   font-size: 92.5%;
+}
+
+body{
+   background-color:orange;
+   background-repeat:repeat;
+   background-attachment:fixed;
+}
+
+.fondoCarro{
+   position: absolute;
+   z-index: 900;
+   background-color: #222222d6;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   display: none;
+}
+
+
+.carrito{
+   display: none;
+   background: #ebeff1;
+   width: 90%;
+   margin: 0 auto;
+   position: fixed;
+   top: 20%;
+   height: 200px;
+   left: 0;
+   right: 0;
+   padding: 15px;
+   border-radius: 10px;
+   border: 2px solid blue;
+   z-index: 999;
+ 
+}

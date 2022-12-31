@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 92.5%;
+}
+
+body {
+  background-color: orange;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.fondoCarro {
+  position: absolute;
+  z-index: 900;
+  background-color: rgba(34, 34, 34, 0.8392156863);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.carrito {
+  display: none;
+  background: #ebeff1;
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  top: 20%;
+  height: 200px;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  z-index: 999;
+}
+
+.nav_fondo {
+  background-color: rgb(1, 1, 1);
+}
+
+.nav_img {
+  width: 100px;
+}
+
+#botonera span {
+  fill: rgb(251, 251, 251);
+}
+
+#botonera ul {
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#botonera ul li {
+  float: right;
+}
+
+#botonera ul li a {
+  color: rgb(255, 251, 251);
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#botonera ul li a:hover {
+  color: rgb(241, 81, 41);
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-divider {
+  color: white;
+}
+
+.card {
+  background-color: orange;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 220px;
+}
+
+.pie {
+  background-color: black;
+  margin-top: auto;
+  text-align: center;
+  padding: 20px 6px 20px;
+}
+
+.pie__icon--sm {
+  width: 80px;
+}
+
+.pie_titulo--md {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: rgba(255, 166, 0, 0.838);
+}/*# sourceMappingURL=style.css.map */
